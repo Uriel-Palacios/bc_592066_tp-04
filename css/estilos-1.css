@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: 0.4%;
+    font-family: 'Koulen', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;}
+
+body{
+    background-color: #E11364;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: center;
+}
+header{
+    background-color:#BC105C;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 100%;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+}
+h1{
+    font-size: 35px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+section{
+    background-color: #BC105C;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 100%;
+   
+}
+article{
+    background-color: #FAFBFC;
+    width: 98%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+img{
+    padding: 10px;
+    width: 100%;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: green;
+    color: white;
+    border-radius: 5%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+a:hover{
+    background-color: #E11364;
+}
+
+h2{
+    color: #FAFBFC;
+    align-self: flex-start;
+    font-size: 25px;
+    text-align: left;
+    padding: 10px;
+    margin-top:15px;
+    margin-left: 20px;
+    
+}
+
+h3{
+    color: #BC105C;
+    font-size:20px;
+    text-align: right;
+    padding: 10px;
+    border-bottom: 3px #BC105C dotted;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pie{
+    display: flex;
+    justify-content: center;
+    
+}
+footer{
+    background-color:#E96093;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+
+h4{
+    font-size: 15px;
+}
+p{
+    padding: 10px;
+    
+}
+
+h5{
+    color: #BC105C;
+   
+    padding: 10px;
+}
+.botoninicio{
+    display: flex;
+    justify-content: end;
+}
+.acritica{
+    background-color: #BC105C;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.remarcado{
+
+    font-weight: 700;
+}
